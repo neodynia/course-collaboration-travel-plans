@@ -17,14 +17,14 @@ body {
 
 .container {
     margin: auto;
-    padding: 1em;
+    padding: 2em;
     width: 80%;
 }
 
 .destination-container {
     display: flex;
     flex-flow: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .destination {
@@ -56,5 +56,17 @@ h2 {
 }
 
 #barcelona {
-    background-color: #800000;
+    background-color: #000;
+    border: 20px dotted #0c0;
+    color: #fff;
+}
+
+body {
+    background-color: #ccc;
+}
+
+#paris {
+    background-color: #000;
+    border: 20px dotted #f0f;
+    color: #fff;
 }
